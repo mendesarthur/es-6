@@ -1,3 +1,3 @@
-# Aulas Ecmascript 6
+# Javascript Es-6
 
 
