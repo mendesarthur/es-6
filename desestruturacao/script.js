@@ -1,30 +1,11 @@
-const person = {
-    name: 'Luke',
-    job: 'Jedi',
-    parents: ['Anakin', 'Padme']
-}
+let idade; 
 
-const name = person.name
+const pessoa = {
+    name: "ELTON",
+    age: 26
+};
 
-const {job, parents} = person
+ ({ age: idade } = pessoa)
 
-console.log(name, job, parents)
+console.log(idade)
 
-
-const [father, mother] = parents
-
-console.log(father, mother)
-
-function createUser({ name, job, parents}){
-    const id = Math.floor(Math.random() * 9999) 
-    return {
-        id,
-        name,
-        job,
-        parents
-    }
-}
-
-const luke = createUser(person)
-
-console.log(luke)
