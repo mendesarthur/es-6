@@ -1,4 +1,4 @@
-export default class Engine {
+export default class {
     constructor(spaceship) {
       this.spaceship = spaceship
     }
